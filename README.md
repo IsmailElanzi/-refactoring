@@ -5,6 +5,33 @@
  pantalla n veces el mensaje:
  Eco ...
 
+*Comentario de Juanma*
+
+Cambios realizados en el código:
+Renombramiento de métodos y variables:
+
+-Cambié el nombre del método eco a printEcoMessage para que sea más descriptivo y siga las convenciones de nomenclatura de Java.
+-Renombré la variable n a repetitions en el método y el main para mejorar la claridad del propósito.
+
+Validación de entrada:
+
+-Se agregó una validación para verificar que el número de repeticiones sea mayor que 0.
+-En el main, se valida si la entrada es un número entero antes de continuar.
+
+Gestión de excepciones:
+
+-Agregué un bloque try-with-resources para asegurar que el Scanner se cierre correctamente.
+-Se manejan excepciones genéricas para capturar errores imprevistos durante la ejecución.
+
+Mensajes informativos:
+
+-Mejoré los mensajes al usuario para que sean más detallados y amigables, como en el caso de errores de validación.
+
+Comentarios en el código:
+
+-Añadí comentarios en el método para describir su propósito y uso.
+-Documenté el flujo principal del programa en el método main.
+
  6. Escribir una función a la que se le pase un número entero y devuelva el número de
  divisores primos que tiene.
 
