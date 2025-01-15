@@ -11,6 +11,11 @@
  5. Crear una función que, mediante un booleano, indique si el carácter que se pasa como
  parámetro de entrada corresponde con una vocal
 
+REFACTORIZACIÓN SILVIA:
+- Cambió el nombre del método para esVocal reflejar su funcionalidad real.
+- Declarado e inicializado letra antes de llamar al método.
+- Simplificó la declaración de retorno en el esVocal método para eliminar la construcción innecesaria if-else.
+
  9. Diseñar una función que calcule an, donde a es real y n entero no negativo. Realizar una
  versión iterativa y otra recursiva.
 
